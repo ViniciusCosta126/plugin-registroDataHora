@@ -1,5 +1,16 @@
-form{
-    background-color: #000;
-    width: 200px;
-    height: 200px;
+#submit{
+    background:#F47521;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    border-radius: 8px;
+    padding: 12px ;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: all .2s;
+}
+#submit:hover{
+    transform: scale(1.1);
+    transition: all .2s;
 }
